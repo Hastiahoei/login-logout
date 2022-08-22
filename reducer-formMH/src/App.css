@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+div {
+  text-align: left;
+}
+
+form {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+.error {
+  color: hsl(15, 100%, 40%)
+}
+
+.untouched::before{
+  color: yellow;
+  content: ":| ";
+}
+.untouched {
+  border: 1px dotted yellow;
+  margin: 3px;
+  padding: 2px;
+}
+
+.valid {
+  border: 1px solid green;
+  margin: 3px;
+  padding: 2px;
+}
+.valid::before {
+  color: green;
+  content: ":) ";
+}
+
+.invalid::before{
+  color: red;
+  content: ":( ";
+}
+.invalid {
+  border: 1px solid red;
+  margin: 3px;
+  padding: 2px;
+}

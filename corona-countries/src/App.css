@@ -1,0 +1,73 @@
+body * {
+  font-size: large;
+}
+
+button {
+  font-size: larger;
+  margin: 10px;
+}
+
+.bar {
+  margin: 5px;
+}
+
+.chart-container {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 1150px;
+  height: 50%;
+  border: 1px dotted #999;
+}
+
+.chart-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1200px;
+  border: 1px dotted #bbb;
+}
+
+.chart-selector-title {
+  text-align: center;
+}
+
+.chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.chart-title {
+  text-align: center;
+}
+
+.chart-unit {
+  text-align: center;
+}
+
+.value {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  width: 70px;
+}
+
+.label {
+  text-align: center;
+}
+
+.year-controls {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+}
